@@ -1,0 +1,15 @@
+digraph {
+	A [label=" "]
+	0 [label=Cajero]
+	1 [label=Cobrador]
+	2 [label=Programador]
+		A -> 0
+		0 -> 1
+		1 -> 2
+	3 [label=McDonalds]
+	4 [label=McGregor]
+	5 [label=Youtube]
+		A -> 3
+		3 -> 4
+		4 -> 5
+}
